@@ -1,0 +1,22 @@
+.truck-modal {
+  width: 100%;
+  max-width: 440px;
+  background: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.truck-modal__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.truck-modal__button {
+  margin: 20px 0 0 0;
+}

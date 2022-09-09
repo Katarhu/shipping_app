@@ -1,0 +1,94 @@
+.truck {
+  max-width: 740px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 15px 35px;
+}
+
+.truck__assigned {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+}
+
+.truck__photo {
+  flex: 0 0 25%;
+}
+
+.truck__img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+.truck__info {
+  flex: 1 1 auto;
+}
+
+.truck__head {
+  display: flex;
+  gap: 10px;
+
+  margin: 0 0 10px 0;
+}
+
+.truck__type {
+  font-size: 1.1rem;
+}
+
+.truck__created {
+
+}
+
+.truck__status_IS,
+.truck__status_OL {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+  }
+}
+
+.truck__status {
+  font-size: 1.1rem;
+  position: relative;
+  margin: 0 0 20px 0;
+
+  &_IS {
+    &:before {
+      background: green;
+    }
+  }
+
+  &_OL {
+    &:before {
+      background: red;
+    }
+  }
+}
+
+.truck__dimensions {
+  display: flex;
+  white-space: pre-wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.truck__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.truck__button {
+  background: transparent;
+  font-size: 1.2rem;
+}

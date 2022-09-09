@@ -1,0 +1,154 @@
+.profile {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 25px 50px;
+}
+
+.profile__container {
+  padding: 35px 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.profile__img {
+  width: 60px;
+  height: 60px;
+  background: gray;
+  border: 1px solid #565656;
+
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    background: #ffffff;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
+
+.profile__info {
+
+}
+
+.profile__email {
+  font-size: 1rem;
+  margin: 0 0 5px 0;
+}
+
+.profile__role {
+  font-size: 1rem;
+}
+
+.profile__controls {
+  margin: 0 0 25px 0;
+}
+
+.profile__button {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  padding: .4em .6em;
+
+  border-radius: 5px;
+
+  &_change {
+    background: #194ae5;
+    margin: 0 10px 0 0;
+  }
+
+  &_delete {
+    background: red;
+  }
+
+  &_submit {
+    background: green;
+  }
+}
+
+.profile__form {
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.profile__label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+}
+
+.profile__input {
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 3px;
+
+  &:not(:last-child) {
+    margin: 0 0 15px 0;
+  }
+}
+
+.profile__error {
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+}
+
+.profile__picture {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #565656;
+  border-radius: 50%;
+  overflow: hidden;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.profile__drop {
+  margin: 0 0 25px 0;
+}
+
+.profile__file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 80px;
+
+  border: 1px dashed #194ae5;
+  border-radius: 5px;
+
+  & input {
+    display: none;
+  }
+}
+

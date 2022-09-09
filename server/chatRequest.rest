@@ -1,0 +1,23 @@
+POST http://localhost:8080/api/chats
+Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzBiYTE1NGIyY2QyNmNiNmE2OTRlMmQiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTc4NDIxOCwiZXhwIjoxNjYxODcwNjE4fQ.rCI9Tcm6Tvi1mlLlv-x648uTVSpj3iy_0UvlLaIpTyU
+Content-Type: application/json
+
+{
+  "companionId": "630ba14db2cd26cb6a694e26"
+}
+
+###
+
+GET http://localhost:8080/api/chats/conversations
+Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzBiYTE1NGIyY2QyNmNiNmE2OTRlMmQiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTg1MzY2NCwiZXhwIjoxNjYxOTQwMDY0fQ.x-jtqJ8HC928VbYFEMG6CzAGMJtdsM9FYsqmQu63JJs
+Content-Type: application/json
+
+
+###
+POST http://localhost:8080/api/chats/630dfd309d05974b3d9b061f/message
+Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzBiYTE0ZGIyY2QyNmNiNmE2OTRlMjYiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxODY0MzUyLCJleHAiOjE2NjE5NTA3NTJ9.D2SzfCUAklmjNJlq9Z8WyeyCVqDBnBR-nUGaThuJ7g4
+Content-Type: application/json
+
+{
+  "text": "not biba bois"
+}

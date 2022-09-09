@@ -1,0 +1,23 @@
+.trucks {
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.trucks__head {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0 0 35px 0;
+}
+
+
+.trucks__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.trucks__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

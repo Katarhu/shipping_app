@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/trucks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjMiLCJfaWQiOiI2MzA3NGU2ZGUxZDBlNGU1MWQ2MDhjNDgiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxNDIzMjEzLCJleHAiOjE2NjE1MDk2MTN9.lryJAXWLDb-7vW6_XDOrfM9WjrlmsV5Jk5pCbsTeryI
+Content-Type: application/json
+
+{
+  "type": "LARGE STRAIGHT"
+}
+
+###
+POST http://localhost:8080/api/trucks/63074e8be1d0e4e51d608c4e/assign
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjMiLCJfaWQiOiI2MzA3NGU2ZGUxZDBlNGU1MWQ2MDhjNDgiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxNDIzMjEzLCJleHAiOjE2NjE1MDk2MTN9.lryJAXWLDb-7vW6_XDOrfM9WjrlmsV5Jk5pCbsTeryI
+
+###
+PUT http://localhost:8080/api/trucks/630211c619c87d0f6a38bbb6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzAyMTE2YjE5Yzg3ZDBmNmEzOGJiYWEiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxMDgwOTcwLCJleHAiOjE2NjExNjczNzB9.XcY7orj8UM8of75_3_YxsgtHvm-zAaSfYPIxLzeb930
+Content-Type: application/json
+
+{
+  "type": "LARGE STRAIGHT"
+}

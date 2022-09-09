@@ -1,0 +1,60 @@
+.chats {
+  width: 100%;
+  max-height: calc(100vh - 5rem);
+  display: flex;
+
+  overflow: hidden;
+}
+
+.chats__left {
+  flex: 0 0 350px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 3px;
+    height: 25vh;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    height: 100%;
+    max-height: 50%;
+    background: #1682FD;
+  }
+}
+
+.chats__search {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+  padding: 40px 25px;
+}
+
+.chats__input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+
+.chats__contacts {
+}
+
+.contacts {
+
+}
+
+.contacts__title {
+  font-size: 1.2rem;
+  color: #1682FD;
+  font-weight: 500;
+  padding: 25px;
+}
+
+.contacts__list {
+}
+
+.chats__chat {
+  flex-grow: 1;
+}

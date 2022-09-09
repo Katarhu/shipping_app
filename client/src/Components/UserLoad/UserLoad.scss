@@ -1,0 +1,116 @@
+.load {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 25px 35px;
+
+  &:not(:last-child) {
+    margin: 0 0 25px 0;
+  }
+
+  white-space: normal;
+}
+
+
+.text-bold {
+  font-weight: 500;
+}
+
+.load__info {
+  flex: 1 1 auto;
+}
+
+.load__row {
+  display: flex;
+}
+
+.load__head {
+  margin: 0 0 10px 0;
+}
+
+.load__status_NEW,
+.load__status_ASSIGNED,
+.load__status_SHIPPED {
+  display: inline-block;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  margin: 0 5px 0 0;
+}
+
+.load__status_NEW {
+  background: green;
+}
+
+.load__status_ASSIGNED {
+  background: purple;
+}
+
+.load__status_SHIPPED {
+  background: cornflowerblue;
+}
+
+.load__status {
+  margin: 0 5px 0 0;
+}
+
+.load__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.load__name {
+  margin: 0 0 5px 0;
+}
+
+.load__state {
+  margin: 0 0 10px 0;
+}
+
+.load__pickup {
+  margin: 0 0 5px 0;
+
+  &_bold {
+    font-weight: 500;
+  }
+}
+
+.load__delivery {
+  margin: 0 0 20px 0;
+
+  &_bold {
+    font-weight: 500;
+  }
+}
+
+.load__dimensions {
+  display: flex;
+  gap: 20px;
+}
+
+.load__button {
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.load__logs {
+  padding: 25px 0 0;
+}
+
+.log {
+  &:not(:last-child) {
+    margin: 0 0 15px 0;
+  }
+}
+
+.log__date {
+  margin: 0 0 5px 0;
+}
+
+.log__message {
+
+}

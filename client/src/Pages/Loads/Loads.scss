@@ -1,0 +1,27 @@
+
+.loads {
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.loads__head {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0 0 35px 0;
+}
+
+.load_button {
+  font-size: 1rem;
+  padding: .4em 1em;
+
+  border-radius: 5px;
+  background: #194ae5;
+
+  color: #ffffff;
+}
+
+.loads__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}

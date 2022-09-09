@@ -1,0 +1,20 @@
+
+
+###
+GET http://localhost:8080/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzY2EiLCJfaWQiOiI2MzAwZDU1ODU4ODc4MjNlNWJhODc0ZjAiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYwOTk5Mjg0LCJleHAiOjE2NjEwODU2ODR9.QlzqNhyJzemV1mYlGzKfzOV9WP0tnKY3psYyZOSiwvc
+
+
+###
+PATCH http://localhost:8080/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzAyMTE2YjE5Yzg3ZDBmNmEzOGJiYWEiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxMDc5OTM1LCJleHAiOjE2NjExNjYzMzV9.fT4KHV5wic3KgTRS1AgtmyrWbp5v5k7ckUSuxeEIy2o
+Content-Type: application/json
+
+{
+  "oldPassword": "1",
+  "newPassword": "1"
+}
+
+###
+DELETE http://localhost:8080/api/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzAwZjBlMjlkYjM1OTYzYzk5MzlmZWEiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTAxNDg0MCwiZXhwIjoxNjYxMTAxMjQwfQ.jVV7BuA8l0_CgJ1OSzLhzJLqUOZxkabmb8Ji3rCcgCk

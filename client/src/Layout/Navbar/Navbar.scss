@@ -1,0 +1,63 @@
+
+.nav {
+  background: #ffffff;
+  position: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 -5px 10px #000000;
+
+  height: 5rem;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+
+  padding: 0 2rem;
+}
+
+
+.nav__logo {
+  font-weight: bold;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.nav__buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav__btn {
+  font-size: .9rem;
+  font-weight: bold;
+
+  padding: .8em 1.4em;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+
+  border-radius: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.nav__link {
+  color: black;
+}
+
+.nav__register {
+  background: #194ae5;
+  color: #ffffff;
+}
+
+.nav__login {
+  background: #EAEAEA;
+  color: #1682FD;
+}
+
+.nav__welcome {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,44 @@
+GET http://localhost:8080/api/loads
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjUiLCJfaWQiOiI2MzA2MDdmMDY5Y2UwMDEyMDA4YmY5ZWMiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTMzOTYzMiwiZXhwIjoxNjYxNDI2MDMyfQ.yv1uqJzEixDAlcEo89U5KsMbhMCI3H8hW-AWHOKa_NA
+###
+POST http://localhost:8080/api/loads
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjUiLCJfaWQiOiI2MzA2MDdmMDY5Y2UwMDEyMDA4YmY5ZWMiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTMzOTYzMiwiZXhwIjoxNjYxNDI2MDMyfQ.yv1uqJzEixDAlcEo89U5KsMbhMCI3H8hW-AWHOKa_NA
+Content-Type: application/json
+
+{
+  "name": "Mova 6",
+  "payload": 100,
+  "pickup_address": "Flat 25, 12/F, Acacia Building 150 Kennedy Road",
+  "delivery_address": "Sr. Rodrigo Domínguez Av. Bellavista N° 185",
+  "dimensions": {
+    "width": 501,
+    "length": 32,
+    "height": 66
+  }
+}
+
+###
+DELETE http://localhost:8080/api/loads/63021f14046d4d60e38778ef
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzAyMTE3ODE5Yzg3ZDBmNmEzOGJiYWMiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTA4MDEyMywiZXhwIjoxNjYxMTY2NTIzfQ.w1Rn-_29HBlAx9rSArvSbAmInUmIbIxDyksixMcDCOk
+
+###
+GET http://localhost:8080/api/loads/63021ed4046d4d60e38778d0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzAyMTE3ODE5Yzg3ZDBmNmEzOGJiYWMiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTA4MDEyMywiZXhwIjoxNjYxMTY2NTIzfQ.w1Rn-_29HBlAx9rSArvSbAmInUmIbIxDyksixMcDCOk
+
+###
+POST http://localhost:8080/api/loads/630746ad878a7f8f7104bd3c/post
+Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzA3NDZhNjg3OGE3ZjhmNzEwNGJkMzciLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTQyMTQ1NiwiZXhwIjoxNjYxNTA3ODU2fQ.qY9ln6FY4gpfd_z92QhimxgjDDFRXApNzCB1heLNBag
+
+
+###
+GET http://localhost:8080/api/loads/active
+Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzA3M2I4ZDI2OWQ5YTliMDc1MWEzYjEiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxNDIxMzgyLCJleHAiOjE2NjE1MDc3ODJ9.1LNlgH2EMtal6J7fTMefOCVc8E9Go65j_MK_DzMg_gQ
+
+###
+PATCH http://localhost:8080/api/loads/active/state
+Authorization: B Authorization: B eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEiLCJfaWQiOiI2MzAyMTE2YjE5Yzg3ZDBmNmEzOGJiYWEiLCJyb2xlIjoiRFJJVkVSIiwiaWF0IjoxNjYxMDc5OTM1LCJleHAiOjE2NjExNjYzMzV9.fT4KHV5wic3KgTRS1AgtmyrWbp5v5k7ckUSuxeEIy2o
+
+
+###
+GET http://localhost:8080/api/loads/63021ed4046d4d60e38778d0/shipping_info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjIiLCJfaWQiOiI2MzAyMTE3ODE5Yzg3ZDBmNmEzOGJiYWMiLCJyb2xlIjoiU0hJUFBFUiIsImlhdCI6MTY2MTA4MDEyMywiZXhwIjoxNjYxMTY2NTIzfQ.w1Rn-_29HBlAx9rSArvSbAmInUmIbIxDyksixMcDCOk
